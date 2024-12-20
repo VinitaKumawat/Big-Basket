@@ -4,11 +4,11 @@ https://66405eedbcb7ce8c1a800ea6--timely-froyo-5c39a1.netlify.app/product
 
 ![Screenshot (22)](https://github.com/user-attachments/assets/61b960d2-2ed4-4f76-959e-e7539df33a03)
 
-                                                                    ![Preview](https://github.com/user-attachments/assets/7ab64bfb-a30a-486a-b9f3-5fa4baa07e42)
-
 # Test Plan
 ##	Introduction
 The test plan is intended to outline the approach for testing the application hosted at Timely Froyo. This web application likely serves as a front-end platform for an online service or product (possibly related to frozen yogurt). The plan details how the software testing will be structured to ensure it meets the requirements and works as expected. This test plan outlines the software testing approach for the product page of the demo website. The primary goal is to ensure the page's functionality, performance, security, and usability meet the required standards. This test plan will help identify potential issues before the product page is deployed to production.
+
+ ![Preview](https://github.com/user-attachments/assets/7ab64bfb-a30a-486a-b9f3-5fa4baa07e42)
 ##  Objective
 The primary objective of this test plan is to verify that the web application functions as expected in various environments, is free from defects, and provides a seamless user experience. The testing will ensure that all features perform as intended, both in terms of functionality and usability.
 ##  Scope
