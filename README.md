@@ -3,7 +3,8 @@ Big Basket Demo site (Manual Testing) Project Code :B41_SDET-010_TestMavericks
 https://66405eedbcb7ce8c1a800ea6--timely-froyo-5c39a1.netlify.app/product
 
 
-(https://github.com/user-attachments/assets/029db12f-989b-46ac-9edb-ff9d01f86c17)
+![Preview](https://github.com/user-attachments/assets/7ab64bfb-a30a-486a-b9f3-5fa4baa07e42)
+
 
 # Test Plan
 ##	Introduction
