@@ -53,25 +53,21 @@ OUT OF SCOPE
 •Performance Testing
 
 ## Role/Responsibility
-QA Lead-Oversee the testing process, ensure all phases are on track, and communicate with stakeholders.
+QA Lead- Oversee the testing process, ensure all phases are on track, and communicate with stakeholders.
 
-Test Engineers-Execute test cases, log bugs, and report progress
+Test Engineers- Execute test cases, log bugs, and report progress
 
-Developers -Assist in resolving bugs, clarifying requirements, and supporting testing.
-
-Project Manager- Ensure the testing schedule aligns with project timelines.
-
-UI/UX Designers-Ensure usability tests align with design standards
+UI/UX Designers- Ensure usability tests align with design standards
 
 ## Test Schedule
 Days	                          Schedule
-17/12/2024	                 : Test Environment Setup, Test Case Design, and Initial Functionality Testing.
+17/12/2024: Test Environment Setup, Test Case Design, and Initial Functionality Testing.
 
-18/12/2024	                 : Execution of functionality, usability, and compatibility testing.
+18/12/2024: Execution of functionality, usability, and compatibility testing.
 
-19/12/2024 &20/12/2024       :usability, and compatibility testing.
+19/12/2024 &20/12/2024:usability, and compatibility testing.
 
-21/12/2024	                 :Bug reporting, final testing, and closure.
+21/12/2024:Bug reporting, final testing, and closure.
 
 ## Test Deliverables
 •Test Plan Document: Defines the scope, objectives, and approach.
@@ -104,7 +100,7 @@ Test Management Tool: Jira or TestRail
 
 Performance Testing Tool
 
-Google Sheet, Google doc, Cross-browser Testing Tools
+Google Sheets, Google Docs, Cross-browser Testing Tools
 
 
 ## Risks & Mitigation
