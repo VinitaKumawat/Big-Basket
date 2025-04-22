@@ -127,5 +127,5 @@ This test plan outlines the QA strategy for the **Big Basket demo site**. The go
 
 ---
 
-> 📌 *This README serves as the formal QA document for the Big Basket demo application hosted on the Timely Froyo platform. All artifacts and deliverables are maintained in this repository.*
+
 
