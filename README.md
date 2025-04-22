@@ -1,124 +1,131 @@
-# Big-Basket
-Big Basket Demo site (Manual Testing) 
+# 🧪 Big Basket Demo Site – Manual Testing Report
 
-Project Code :B41_SDET-010_TestMavericks
-https://66405eedbcb7ce8c1a800ea6--timely-froyo-5c39a1.netlify.app/product
+**Project Code:** `B41_SDET-010_TestMavericks`  
+**Live Demo:** [Timely Froyo Product Page](https://66405eedbcb7ce8c1a800ea6--timely-froyo-5c39a1.netlify.app/product)
 
-![Screenshot (22)](https://github.com/user-attachments/assets/61b960d2-2ed4-4f76-959e-e7539df33a03)
+![Big Basket UI Preview](https://github.com/user-attachments/assets/7ab64bfb-a30a-486a-b9f3-5fa4baa07e42)
 
-# Test Plan
-##	Introduction
-The test plan is intended to outline the approach for testing the application hosted at Timely Froyo. This web application likely serves as a front-end platform for an online service or product (possibly related to frozen yogurt). The plan details how the software testing will be structured to ensure it meets the requirements and works as expected. This test plan outlines the software testing approach for the product page of the demo website. The primary goal is to ensure the page's functionality, performance, security, and usability meet the required standards. This test plan will help identify potential issues before the product page is deployed to production.
+---
 
- ![Preview](https://github.com/user-attachments/assets/7ab64bfb-a30a-486a-b9f3-5fa4baa07e42)
-##  Objective
-The primary objective of this test plan is to verify that the web application functions as expected in various environments, is free from defects, and provides a seamless user experience. The testing will ensure that all features perform as intended, both in terms of functionality and usability.
-##  Scope
-•Functionality Testing
+## 📋 Test Plan Overview
 
-•Usability Testing
+This test plan outlines the QA strategy for the **Big Basket demo site**. The goal is to verify the stability, usability, performance, and reliability of the **Product Page** before deployment. Testing will be conducted manually to simulate real-world user interactions and discover functional gaps or UI/UX issues.
 
-•Performance Testing
+---
 
-•Compatibility Testing
+## 🎯 Objectives
 
-OUT OF SCOPE
+- Ensure core product features are working as expected
+- Validate user experience across devices and browsers
+- Detect and document bugs before release
+- Deliver a smooth, error-free interface for end-users
 
-•Payment gateway testing
+---
 
-•Backend or database testing
+## 🔍 Scope of Testing
 
-## Testable Feature
-•Homepage functionality
+**✅ Included in Scope:**
+- Functional Testing (Core actions and navigation)
+- Usability Testing (UI/UX flow, responsiveness)
+- Performance Testing (Page load & responsiveness)
+- Cross-browser Compatibility
 
-•Login Functionality
+**❌ Out of Scope:**
+- Payment gateway integrations
+- Backend/Database/API testing
 
-•Sign-Up Functionality
+---
 
-•Logout Functionality
+## ✨ Features to be Tested
 
-•Navigation
+- Home page elements and behavior
+- Login and authentication flow
+- User registration (Sign-Up)
+- Logout functionality
+- Page navigation and redirections
+- Form validations and user interactions
+- Browser and resolution adaptability
+- Error messages and exception handling
 
-•User interactions
+---
 
-•Compatibility
+## 🧪 Testing Approach
 
-•Error handling
+- **Manual Functional Testing** to ensure proper behavior
+- **Usability Testing** to validate layout and navigation
+- **Basic Performance Checks** via DevTools
 
-## Test Approach
-•Manual Testing
+---
 
-•Usability Testing
+## 👥 Roles & Responsibilities
 
-•Performance Testing
+| Role | Responsibility |
+|------|----------------|
+| **QA Lead** | Oversee entire testing workflow and reporting |
+| **Test Engineer(s)** | Execute test cases and log bugs |
+| **UI/UX Reviewer** | Assess visual and usability concerns |
 
-## Role/Responsibility
-QA Lead- Oversee the testing process, ensure all phases are on track, and communicate with stakeholders.
+---
 
-Test Engineers- Execute test cases, log bugs, and report progress
+## 🗓️ Testing Schedule
 
-UI/UX Designers- Ensure usability tests align with design standards
+| Date | Activities |
+|------|------------|
+| `17-Dec-2024` | Test setup, test case creation, initial checks |
+| `18-Dec-2024` | Functionality & UI/UX testing |
+| `19–20-Dec-2024` | Continued compatibility testing |
+| `21-Dec-2024` | Final verification, bug reports, test closure |
 
-## Test Schedule
-Days	                          Schedule
-17/12/2024: Test Environment Setup, Test Case Design, and Initial Functionality Testing.
+---
 
-18/12/2024: Execution of functionality, usability, and compatibility testing.
+## 📁 Deliverables
 
-19/12/2024 &20/12/2024:usability, and compatibility testing.
+- `Test_Plan.md`: This document outlining strategy
+- `Test_Cases.xlsx`: Test cases with steps, data, and results
+- `Bug_Report.xlsx`: Defects with severity and status
+- `Test_Summary_Report.md`: Overall status, metrics, and sign-off
 
-21/12/2024:Bug reporting, final testing, and closure.
+---
 
-## Test Deliverables
-•Test Plan Document: Defines the scope, objectives, and approach.
+## ✅ Entry Criteria
 
-•Test Cases: Detailed test cases for each feature.
+- Product page is deployed on test environment
+- Required documentation and credentials are shared
+- QA team has test scenarios and access to necessary tools
 
-•Test Logs: Records of tests executed, including results and issues encountered.
+## ⛔ Exit Criteria
 
-•Bug Reports: Detailed reports of identified defects with severity levels.
+- All test cases are executed
+- Major/Critical bugs are fixed and retested
+- Final report is reviewed and signed off
 
-•Test Summary Report: A final report summarizing testing activities, results, and recommendations.
+---
 
-## Entry and Exit Criteria
-### Entry Criteria:
--The product page should be developed and deployed in the test environment.
+## 🛠️ Tools Used
 
--Test cases and testing tools should be prepared.
+- **Test Management:** Jira / Google Sheets  
+- **Documentation:** Google Docs  
+- **Cross-Browser Testing:** Chrome, Firefox, Edge, Safari  
+- **Performance Checks:** Chrome DevTools / Lighthouse
 
--Testers should have access to the product page and required documentation.
+---
 
-### Exit Criteria:
--All test cases should be executed.
+## ⚠️ Risks & Mitigation
 
--Critical defects should be fixed and verified.
+| Risk | Mitigation |
+|------|------------|
+| Incomplete browser support | Test across multiple browsers and devices |
+| Development delays | Coordinate closely with dev team and prioritize critical areas |
+| Missed edge cases | Continuously review and update test scenarios |
 
--Test summary report should be completed.
+---
 
-## Tools
-Test Management Tool: Jira or TestRail 
+## ✅ Approval
 
-Performance Testing Tool
+**Reviewed & Approved By:**  
+**Shiva Kumar MG** – Head of QA
 
-Google Sheets, Google Docs, Cross-browser Testing Tools
+---
 
-
-## Risks & Mitigation
-•Risk 1: Limited browser compatibility.
-
-•Risk 2: Delays in feature delivery.
-
-•Risk 3: Incomplete test coverage.
-
-o Mitigation: Ensure compatibility testing is thorough across major browsers and devices.
-
-o Mitigation: Establish clear communication with the development team to track progress and prioritize features for testing.
-
-o Mitigation: Review test cases regularly to ensure all critical features are covered, including edge cases.
-
-## Approvals
-•Test Plan Approval: The test plan needs to be reviewed and approved by the QA lead, project manager, and relevant stakeholders before execution.
-
-•Test Case Approval: Test cases should be reviewed and approved by the development team to ensure alignment with requirements.
-
+> 📌 *This README serves as the formal QA document for the Big Basket demo application hosted on the Timely Froyo platform. All artifacts and deliverables are maintained in this repository.*
 
